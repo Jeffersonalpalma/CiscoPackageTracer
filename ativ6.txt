@@ -1,0 +1,75 @@
+atv6
+
+13:
+pc0:
+ping 110.0.0.110
+TTL:126
+Qtd routers:2
+
+ping 140.0.0.140
+TTL:125
+Qtd routers:3
+
+pc3:
+ping 110.0.0.110
+TTL:126
+Qtd routers:2
+
+ping 140.0.0.140
+TTL:125
+Qtd routers:3
+
+pc6:
+ping 110.0.0.110
+TTL:125
+Qtd routers:3
+
+ping 140.0.0.140
+TTL:126
+Qtd routers:2
+
+pc9:
+ping 110.0.0.110
+TTL:125
+Qtd routers:3
+
+ping 140.0.0.140
+TTL:126
+Qtd routers:2
+
+14:
+pc0:
+ping 110.0.0.110
+TTL:122
+Qtd routers:6
+
+ping 140.0.0.140
+TTL:125
+Qtd routers:3
+
+pc3:
+ping 110.0.0.110
+TTL:126
+Qtd routers:2
+
+ping 140.0.0.140
+TTL:125
+Qtd routers:3
+
+pc6:
+ping 110.0.0.110
+TTL:125
+Qtd routers:3
+
+ping 140.0.0.140
+TTL:126
+Qtd routers:2
+
+pc9:
+ping 110.0.0.110
+TTL:123
+Qtd routers:5
+
+ping 140.0.0.140
+TTL:126
+Qtd routers:2

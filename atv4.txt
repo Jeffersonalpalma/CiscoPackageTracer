@@ -1,0 +1,98 @@
+atividade 4
+
+13:
+IP pc0=200.1.0.100
+TTL=128
+
+IP pc3=200.1.1.100
+TTL=128
+
+IP pc6=200.1.2.100
+TTL=128
+
+14:
+Router0
+FastEthernet0/0
+classe=C
+
+Serial 0/2
+classe=A
+
+Serial 0/3
+classe=A
+
+15:
+Router1
+FastEthernet0/0
+classe=C
+
+Serial 0/2
+clock rate:1200
+classe=A
+
+Serial 0/3
+classe=A
+
+16:
+Router2
+FastEthernet0/0
+classe=C
+
+Serial 0/2
+clock rate:1200
+classe=A
+
+Serial 0/3
+clock rate:2000000
+classe=A
+
+18:
+PING PC0
+pc0-pc3
+ping 200.1.1.100
+TTL=126
+
+pc0-pc6
+ping 200.1.2.100
+TTL=126
+
+TRACERT PC0
+pc0-pc3
+tracert 200.1.1.100
+
+pc0-pc6
+tracert 200.1.2.100
+
+
+PING PC3
+pc3-pc0
+ping 200.1.0.100
+TTL=126
+
+pc3-pc6
+ping 200.1.2.100
+TTL=126
+
+TRACERT PC3
+pc3-pc0
+tracert 200.1.0.100
+
+pc3-pc6
+tracert 200.1.2.100
+
+
+PING PC6
+pc6-pc0
+ping 200.1.0.100
+TTL=126
+
+pc6-pc3
+ping 200.1.1.100
+TTL=126
+
+TRACERT PC6
+pc6-pc0
+tracert 200.1.0.100
+
+pc6-pc3
+tracert 200.1.1.100

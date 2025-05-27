@@ -1,0 +1,9 @@
+ativ7
+Configure o PC para adquirir IP dinâmico. 
+Anote o IP atribuído:200.168.5.103
+
+Responda: De onde vieram estas configurações?
+Do server 5
+
+ping www.elo.com.br  ou outro site que você tenha criado 
+Anote o IP do host que responde:110.0.0.110
